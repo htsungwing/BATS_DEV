@@ -1,0 +1,4 @@
+SETUP AUTHENTICATION
+1. context.xml (security constraints)
+2. web.xml (realm definition)
+3. /opt/webserver/conf/tomcat-users.xml (user roles)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/servlet">
+    <Resource
+        name="auth"
+        scope="Shareable"
+        description="auth"
+        type="javax.sql.DataSource"        
+        auth="Container"
+        driverClassName="org.postgresql.Driver"
+        maxActive="10"
+        maxIdle="3"
+        maxWait="5000"
+        password="D3vT3@mP@ssword"
+        url="jdbc:postgresql://postgresql:5432/auth"
+        validationQuery="select version();"
+        username="han"/>
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+        userTable="USERS"
+        userNameCol="USERNAME"
+        userCredCol="PASSWORD"
+        userRoleTable="ROLES"
+        roleNameCol="ROLENAME"
+        localDataSource="true"
+        dataSourceName="auth"/>
+</Context>
