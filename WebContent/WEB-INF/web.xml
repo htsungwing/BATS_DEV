@@ -9,7 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
+  <!-- <servlet>
     <description></description>
     <display-name>servlet</display-name>
     <servlet-name>servlet</servlet-name>
@@ -37,5 +37,5 @@
   </login-config>
   <security-role>
     <role-name>user</role-name>
-  </security-role>
+  </security-role>-->
 </web-app>
