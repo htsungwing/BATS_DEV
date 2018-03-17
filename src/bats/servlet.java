@@ -15,10 +15,9 @@ public class servlet extends HttpServlet {
  public void doGet(HttpServletRequest request, 
   HttpServletResponse response) 
   throws ServletException, IOException {
-	 	final JFrame parent = new JFrame();
-	 	String attemptResponse = JOptionPane.showInputDialog(parent,
-	 			"Enter Password: ", null);
-	 	
+	 	//final JFrame parent = new JFrame();
+	 	//String attemptResponse = JOptionPane.showInputDialog(parent,
+	 	//		"Enter Password: ", null);
 	    //HttpSession session = request.getAttribute("a");
 	    //session.setAttribute("a", "a");
 	 	RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
