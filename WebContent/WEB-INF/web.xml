@@ -24,7 +24,7 @@
     <web-resource-collection>
       <web-resource-name>Whole App Requires Authentication</web-resource-name>
       <description>coarse grained approach</description>
-      <url-pattern>/BATS_DEV/*</url-pattern>
+      <url-pattern>/*</url-pattern>
       <http-method>PUT</http-method>
       <http-method>DELETE</http-method>
       <http-method>GET</http-method>
