@@ -18,7 +18,7 @@
         userTable="USERS"
         userNameCol="USERNAME"
         userCredCol="PASSWORD"
-        userRoleTable="ROLES"
+        userRoleTable="USER_ROLES"
         roleNameCol="ROLENAME"
         localDataSource="true"
         dataSourceName="auth"/>
